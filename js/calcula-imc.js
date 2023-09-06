@@ -38,12 +38,6 @@ for (var i = 0; i < pacientes.length; i++){
     } else{
         tdImc.textContent = "Altura e/ou peso invalidos!"
     }
-
-    console.log(paciente);
-    console.log(peso);
-    console.log(altura);
-    console.log(imc); 
-    console.log(pacientes[i]);
 }
 
 function calculaImc(peso, altura) {
